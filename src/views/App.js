@@ -1,7 +1,9 @@
+import React from "react";
 import logo from './logo.svg';
 import './App.scss';
-
-function App() {
+import MyComponent from './examples/myComponent';
+// không cần hậu tố js
+let App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <MyComponent />
       </header>
     </div>
   );
